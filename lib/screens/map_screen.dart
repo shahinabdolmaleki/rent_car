@@ -21,7 +21,9 @@ class _MapScreenState extends State<MapScreen> {
         children: [
           TileLayer(
             urlTemplate:
-                'https://api.mapbox.com/styles/v1/shahin71/clw7xz9n002pf01qr5cdvdpzx/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2hhaGluNzEiLCJhIjoiY2x3N3hvNXk2MXljcjJxcHluaTJzdmo0dSJ9.ZuSuevfAgR1Ej-s6LlYeyA',
+            //API from Flutter_map or another map api
+                '',
+            
             userAgentPackageName: 'com.example.rentcar',
             // Plenty of other options available!
           ),
